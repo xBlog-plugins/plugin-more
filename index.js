@@ -3,7 +3,7 @@ const widget =xBlog.widget
 const tools =xBlog.tools
 
 // 添加卡片
-widget.addSide(false,"更多功能","index.html",function () {
+widget.addSide("更多功能","index.html",function () {
     // 因为系统API限制，需要自己进行手动设置
     // 不需要的自己注释掉就行了
     const functions = [
